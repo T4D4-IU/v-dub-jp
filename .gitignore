@@ -1,0 +1,19 @@
+# Devenv
+.devenv/
+.devenv.flake.nix
+.envrc
+devenv.lock
+devenv.yaml
+
+# Rust / Cargo
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# jj (Jujutsu) internal (optional as jj manages its own, but good for git compatibility)
+.jj/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
